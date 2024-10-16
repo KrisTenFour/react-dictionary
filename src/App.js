@@ -10,8 +10,8 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>This page was coded by Kristen Namigai🧝🏻and is open-souced on GitHub and hosted on Netlify</footer>
       </div>
+      <footer>This page was coded by Kristen Namigai🧝🏻and is open-souced on GitHub and hosted on Netlify</footer>
     </div>
   );
 }
