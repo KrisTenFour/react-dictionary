@@ -1,3 +1,10 @@
+.App .container {
+  margin: 30px auto;
+  background-color: pink;
+  border-radius: 1mm;
+  text-align: center;
+}
+
 .App h1 {
   color: red;
 }
