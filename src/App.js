@@ -11,7 +11,10 @@ function App() {
           <Dictionary />
         </main>
       </div>
-      <footer>This page was coded by Kristen Namigai🧝🏻and is open-souced on GitHub and hosted on Netlify</footer>
+      <footer>This page was coded by{' '}
+        <a href='https://kristen-n.netlify.app/' rel="noreferrer" target="_blank">Kristen Namigai</a>🧝🏻and is {' '}
+        <a href='https://github.com/KrisTenFour/react-dictionary' rel="noreferrer" target="_blank">open-souced on GitHub</a> and hosted on{' '}
+        <a href='https://www.netlify.com/' rel="noreferrer" target="_blank">Netlify</a></footer>
     </div>
   );
 }
