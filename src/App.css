@@ -1,12 +1,13 @@
-.App {
-  text-align: center;
-}
-
 .App .container {
   margin: 30px auto 0;
   padding: 30px 15px;
   background-color: pink;
   border-radius: 1mm;
+}
+
+.App header,
+footer {
+  text-align: center;
 }
 
 .App header h1 {
