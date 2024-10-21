@@ -1,4 +1,9 @@
-.Dictionary .sub-head {
+.Dictionary .sub-head,
+.Dictionary form {
     text-align: center;
+
+}
+
+.Dictionary .sub-head {
     font-size: 24px;
 }
