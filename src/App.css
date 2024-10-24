@@ -3,6 +3,7 @@
   padding: 30px 15px;
   background-color: #514677;
   border-radius: 2mm;
+  box-shadow: 3px 3px 12px rgb(118, 118, 118);
 }
 
 .App header,

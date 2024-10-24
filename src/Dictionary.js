@@ -28,8 +28,14 @@ export default function Dictionary() {
         <div className="Dictionary">
             <h2 className="sub-head">What word are you looking for?</h2>
             <form onSubmit={search}>
-                <input type="search" placeholder="Search..." onChange={handleKeywordChange} autoFocus={true} />
-                <input type="submit" value="Search" />
+                <div className="row">
+                    <div className="col-9">
+                        <input type="search" placeholder="Search..." onChange={handleKeywordChange} autoFocus={true} className="form-control" />
+                    </div>
+                    <div className="col-3">
+                        <input type="submit" value="Search" className="btn btn-primary" />
+                    </div>
+                </div>
             </form>
             <Results results={results} />
         </div>)
