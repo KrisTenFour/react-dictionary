@@ -1,3 +1,16 @@
-.Results h2 {
-    text-align: left;
+.Results .word,
+.Results .definition {
+    border-radius: 2mm;
+}
+
+.Results .word {
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #c0a9f2;
+}
+
+.Results .definition {
+    padding: 23px 30px;
+    background-color: #f6dd83ef;
 }

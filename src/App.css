@@ -1,8 +1,8 @@
 .App .container {
   margin: 30px auto 0;
   padding: 30px 15px;
-  background-color: pink;
-  border-radius: 1mm;
+  background-color: #514677;
+  border-radius: 2mm;
 }
 
 .App header,

@@ -7,3 +7,7 @@
 .Dictionary .sub-head {
     font-size: 24px;
 }
+
+.Dictionary form {
+    margin: 20px auto;
+}
