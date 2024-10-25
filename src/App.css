@@ -1,9 +1,10 @@
 .App .container {
-  margin: 30px auto 0;
+  max-width: 1030px;
+  margin: 40px auto;
   padding: 30px 15px;
-  background-color: #514677;
+  background-color: #ffffff;
   border-radius: 2mm;
-  box-shadow: 3px 3px 12px rgb(118, 118, 118);
+  box-shadow: 3px 3px 9px rgb(222, 219, 219);
 }
 
 .App header,
