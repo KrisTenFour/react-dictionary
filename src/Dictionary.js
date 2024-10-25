@@ -38,13 +38,9 @@ export default function Dictionary(props) {
             <div className="Dictionary">
                 <h2 className="sub-head">Which word are you looking for?</h2>
                 <form onSubmit={handleSubmit}>
-                    <div className="row">
-                        <div className="col-9">
-                            <input type="search" placeholder="Search..." onChange={handleKeywordChange} autoFocus={true} className="form-control" />
-                        </div>
-                        <div className="col-3">
-                            <input type="submit" value="Search" className="btn btn-primary" />
-                        </div>
+                    <div >
+                        <input type="search" placeholder="Search..." onChange={handleKeywordChange} autoFocus={true} className="form-control" />
+                        <label className="form-text">e.g. dog, cat, cucumber...</label>
                     </div>
                 </form>
                 <Results results={results} />
