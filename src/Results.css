@@ -3,6 +3,14 @@
     border-radius: 2mm;
 }
 
+.Results {
+    margin-left: 2px;
+}
+
 .Results .word {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.Results h3 {
+    margin: 5px auto;
 }
