@@ -10,8 +10,8 @@
 .Results .word {
     margin-bottom: 10px;
     padding: 25px;
-    background: rgb(15, 39, 120);
-    color: white;
+    color: #ffffff;
+    background: #0f2778;
 }
 
 .Results h3 {

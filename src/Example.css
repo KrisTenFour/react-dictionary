@@ -1,10 +1,10 @@
 .Example .example-title {
     margin-bottom: 1px;
     font-weight: 500;
-    color: black;
+    color: #000000;
 }
 
 .Example p {
     margin-bottom: 1px;
-    color: rgb(77, 77, 77);
+    color: #4d4d4d;
 }
