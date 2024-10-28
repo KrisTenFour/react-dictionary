@@ -1,21 +1,32 @@
 .App header,
 footer {
   text-align: center;
+  color: rgb(243, 231, 172);
 }
 
 .App {
-  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  background: linear-gradient(112.1deg, rgb(13, 26, 70) 11.4%, rgb(14, 27, 70) 70.2%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .App .container {
   max-width: 830px;
-  padding: 30px 30px 115px;
-  background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
-  ;
+  padding: 0 30px 115px;
+  background: rgb(13, 26, 70);
+}
+
+.App header {
+  padding: 25px;
 }
 
 .App header h1 {
-  color: black;
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 3px;
 }
 
 .App footer {
