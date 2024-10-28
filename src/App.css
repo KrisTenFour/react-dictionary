@@ -38,4 +38,9 @@ footer {
   .App .container {
     padding: 0 23px 5px;
   }
+
+  .App footer {
+    font-size: 12px;
+  }
+
 }
