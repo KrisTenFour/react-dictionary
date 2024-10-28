@@ -1,25 +1,23 @@
+.App header,
+footer {
+  text-align: center;
+}
+
 .App {
   background-color: rgb(250, 245, 239);
 }
 
 .App .container {
   max-width: 830px;
-  padding: 30px;
+  padding: 30px 30px 115px;
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   ;
 }
 
-.App header,
-footer {
-  text-align: center;
-}
-
 .App header h1 {
   color: black;
-  ;
 }
 
 .App footer {
-  margin: 0 auto;
   font-size: 10px;
 }
