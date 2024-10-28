@@ -33,3 +33,9 @@ footer {
   margin-top: 5px;
   font-size: 10px;
 }
+
+@media (max-width: 553px) {
+  .App .container {
+    padding: 0 23px 5px;
+  }
+}

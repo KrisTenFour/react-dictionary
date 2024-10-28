@@ -18,3 +18,9 @@
     margin-bottom: 2px;
     font-size: 30px;
 }
+
+@media (max-width: 553px) {
+    .Results .Meaning {
+        font-size: 20px;
+    }
+}
