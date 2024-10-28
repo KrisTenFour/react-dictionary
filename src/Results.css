@@ -9,8 +9,10 @@
 
 .Results .word {
     margin-bottom: 10px;
+    padding: 16px;
+    background-color: #f7f2b0
 }
 
 .Results h3 {
-    margin: 5px auto;
+    margin-bottom: 2px;
 }

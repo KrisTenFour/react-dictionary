@@ -1,5 +1,5 @@
 .Dictionary .sub-head {
-    margin: 20px;
+    margin: 20px auto 30px;
     text-align: center;
 }
 
@@ -9,6 +9,11 @@
 
 .Dictionary form {
     margin: 20px auto;
+}
+
+.Dictionary .form-control:focus {
+    border-color: rgba(109, 207, 187, 0.84);
+    box-shadow: inset 0 1px 1px rgba(42, 42, 42, 0.075), 0 0 8px rgb(109, 207, 251, 0.5);
 }
 
 .Dictionary label {

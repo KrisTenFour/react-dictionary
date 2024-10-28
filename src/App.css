@@ -1,6 +1,6 @@
 .App .container {
   max-width: 830px;
-  margin: 25px auto;
+  margin: 25px auto 0;
   padding: 30px 15px;
   background-color: #ffffff;
 }
