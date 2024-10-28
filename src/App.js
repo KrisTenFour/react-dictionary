@@ -10,11 +10,11 @@ function App() {
         <main>
           <Dictionary defaultKeyword={"incomprehensible"} />
         </main>
+        <footer>Coded by{' '}
+          <a href='https://kristen-n.netlify.app/' rel="noreferrer" target="_blank">Kristen Namigai</a>🧝🏻, {' '}
+          <a href='https://github.com/KrisTenFour/react-dictionary' rel="noreferrer" target="_blank">open-souced on GitHub</a> and hosted on{' '}
+          <a href='https://www.netlify.com/' rel="noreferrer" target="_blank">Netlify</a></footer>
       </div>
-      <footer>Coded by{' '}
-        <a href='https://kristen-n.netlify.app/' rel="noreferrer" target="_blank">Kristen Namigai</a>🧝🏻, {' '}
-        <a href='https://github.com/KrisTenFour/react-dictionary' rel="noreferrer" target="_blank">open-souced on GitHub</a> and hosted on{' '}
-        <a href='https://www.netlify.com/' rel="noreferrer" target="_blank">Netlify</a></footer>
     </div>
   );
 }
