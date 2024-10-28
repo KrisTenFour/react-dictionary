@@ -2,7 +2,6 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
-    console.log(props);
     if (props.photos) {
         return (
             <div className="Photos">
@@ -10,7 +9,7 @@ export default function Photos(props) {
                     {props.photos.map(function (photos, index) {
                         return (
                             <div className="col-4" key={index}>
-                                <img src={photos.src.landscape} className="img-fluid" />
+                                <img src={photos.src.landscape} className="img-fluid" alt={photos.alt} />
                             </div>
                         );
                     })}
