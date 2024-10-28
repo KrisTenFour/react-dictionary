@@ -1,8 +1,8 @@
 .Synonym {
-    margin-bottom: 5px;
+    margin: 5px auto;
 }
 
-.Synonym p {
+.Synonym .synonym-title {
     margin-bottom: 2px;
     font-weight: 500;
 }

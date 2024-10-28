@@ -1,15 +1,20 @@
 .Meaning {
-    margin: 10px auto;
+    margin: 8px auto;
     padding: 15px;
     border-radius: 1.5mm;
-    background-color: #c6c6c6d8;
+    background-color: rgba(254, 214, 227);
 }
 
 .Meaning .definition {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-style: italic;
 }
 
 .Meaning h5 {
     margin-bottom: 3px;
+}
+
+.Meaning .example {
+    margin-bottom: 2px;
+    font-weight: 500;
 }

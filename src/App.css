@@ -1,8 +1,12 @@
+.App {
+  background-color: rgb(250, 245, 239);
+}
+
 .App .container {
   max-width: 830px;
-  margin: 25px auto 0;
-  padding: 30px 15px;
-  background-color: #ffffff;
+  padding: 30px;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  ;
 }
 
 .App header,
