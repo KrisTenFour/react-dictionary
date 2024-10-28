@@ -36,11 +36,10 @@ footer {
 
 @media (max-width: 553px) {
   .App .container {
-    padding: 0 23px 5px;
+    padding: 0 20px 5px;
   }
 
   .App footer {
     font-size: 12px;
   }
-
 }
