@@ -8,7 +8,7 @@ function App() {
       <div className="container">
         <header><h1>Dictionary</h1></header>
         <main>
-          <Dictionary defaultKeyword={"incomprehensible"} />
+          <Dictionary defaultKeyword={"cat"} />
         </main>
         <footer>Coded by{' '}
           <a href='https://kristen-n.netlify.app/' rel="noreferrer" target="_blank">Kristen Namigai</a>🧝🏻, {' '}
