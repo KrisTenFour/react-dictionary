@@ -1,5 +1,9 @@
+.Dictionary .sub-head,
+.Dictionary label {
+    color: white;
+}
+
 .Dictionary .sub-head {
-    margin: 20px auto 30px;
     text-align: center;
 }
 

@@ -2,12 +2,11 @@
     margin: 8px auto;
     padding: 20px;
     border-radius: 1.5mm;
-    background-color: rgb(254, 214, 249);
+    background-color: rgb(254, 245, 214);
 }
 
 .Meaning .definition {
     margin-bottom: 5px;
-    font-style: italic;
 }
 
 .Meaning h5 {

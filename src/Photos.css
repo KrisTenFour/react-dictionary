@@ -1,10 +1,10 @@
 .Photos {
     padding: 15px;
     border-radius: 1.5mm;
-    background-color: white;
+    background-color: #fbfaede9;
 }
 
 .Photos img {
-    margin: 10px auto;
+    margin: 8px auto;
     border-radius: 1.5mm;
 }
