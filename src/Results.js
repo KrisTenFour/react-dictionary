@@ -14,11 +14,13 @@ export default function Results(props) {
                     </div>
                 </section>
                 <section>
-                    <div className="definition">
+                    <div className="definition row">
                         {props.results.meanings.map(function (meanings, index) {
                             return (
-                                <div key={index}>
-                                    <Meaning meaning={meanings} />
+                                <div className="col-md-6">
+                                    <div key={index}>
+                                        <Meaning meaning={meanings} />
+                                    </div>
                                 </div>
                             );
                         })}
