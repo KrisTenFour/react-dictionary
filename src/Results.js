@@ -17,8 +17,8 @@ export default function Results(props) {
                     <div className="definition row">
                         {props.results[0].meanings.map(function (meanings, index) {
                             return (
-                                <div className="col-md-6">
-                                    <div key={index}>
+                                <div className="col-md-6" key={index}>
+                                    <div>
                                         <Meaning meaning={meanings} />
                                     </div>
                                 </div>
