@@ -15,7 +15,6 @@ export default function Dictionary(props) {
     }
 
     function handleDictionaryResponse(response) {
-        console.log(response);
         setResults(response.data);
     }
 
