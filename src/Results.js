@@ -4,6 +4,7 @@ import Phonetic from "./Phonetic";
 import "./Results.css";
 
 export default function Results(props) {
+    console.log(props.results);
     if (props.results) {
         return (
             <div className="Results">
@@ -15,7 +16,7 @@ export default function Results(props) {
                 </section>
                 <section>
                     <div className="definition row">
-                        {props.results.meanings.map(function (meanings, index) {
+                        {props.results[0].meanings.map(function (meanings, index) {
                             return (
                                 <div className="col-md-6">
                                     <div key={index}>
