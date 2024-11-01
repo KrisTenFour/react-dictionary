@@ -14,24 +14,31 @@ export default function Dictionary(props) {
         setPhotos(response.data.photos);
     }
 
-    function handleDictionaryResponse(response) {
-        setResults(response.data);
-    }
-
-    function search() {
-        let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-
-        axios.get(apiUrl).then(handleDictionaryResponse);
-
+    function searchPhotos() {
         let apiKeyPhoto = "t9b7bfca5o9e8e14b53384f350a6b50f";
         let apiUrlPhoto = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${apiKeyPhoto}`;
 
         axios.get(apiUrlPhoto).then(handlePhotoResponse);
     }
 
+    function handleDictionaryResponse(response) {
+        setResults(response.data);
+        if (response.data) {
+            searchPhotos();
+        } else {
+            <span>no images found</span>
+        }
+    }
+
+    function searchKeyword() {
+        let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+
+        axios.get(apiUrl).then(handleDictionaryResponse);
+    }
+
     function handleSubmit(event) {
         event.preventDefault();
-        search()
+        searchKeyword();
     }
 
     function handleKeywordChange(event) {
@@ -40,7 +47,7 @@ export default function Dictionary(props) {
 
     function load() {
         setLoaded(true);
-        search();
+        searchKeyword();
     }
 
     if (loaded) {
