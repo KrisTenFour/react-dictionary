@@ -17,3 +17,17 @@
     margin-bottom: 2px;
     font-weight: 500;
 }
+
+@media (max-width: 553px) {
+    .Meaning h5 {
+        font-size: 16px;
+    }
+
+    .Meaning .definition {
+        font-size: 14px;
+    }
+
+    .Meaning .Example {
+        font-size: 14px;
+    }
+}
