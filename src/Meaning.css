@@ -6,11 +6,11 @@
 }
 
 .Meaning .definition {
-    margin: 15px auto;
+    margin: 5px auto 15px;
 }
 
-.Meaning h5 {
-    margin-bottom: 3px;
+.Meaning .part-of-speech {
+    font-size: 18px;
 }
 
 .Meaning .example {
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 553px) {
-    .Meaning h5 {
+    .Meaning .part-of-speech {
         font-size: 16px;
     }
 
