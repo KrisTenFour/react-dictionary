@@ -34,4 +34,8 @@
     .Dictionary label {
         font-size: 15px;
     }
+
+    .Dictionary form {
+        margin: 5px auto 15px;
+    }
 }
