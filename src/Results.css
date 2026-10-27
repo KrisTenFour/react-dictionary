@@ -20,8 +20,8 @@
 }
 
 @media (max-width: 553px) {
-    .Results .Meaning {
-        font-size: 20px;
+    .Results .word {
+        padding: 15px;
     }
 
     .Results h3 {
