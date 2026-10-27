@@ -21,6 +21,7 @@ footer {
 }
 
 .App header h1 {
+  margin-top: 20px;
   font-size: 60px;
   font-family: "Grenze Gotisch", serif;
   font-optical-sizing: auto;
@@ -36,6 +37,11 @@ footer {
 @media (max-width: 553px) {
   .App .container {
     padding: 0 20px 5px;
+  }
+
+  .App header h1 {
+    margin: 0;
+    font-size: 45px;
   }
 
   .App footer {
