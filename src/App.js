@@ -9,7 +9,7 @@ function App() {
       <div className="container">
         <header><h1>English Dictionary</h1></header>
         <main>
-          <Dictionary defaultKeyword={"soup"} />
+          <Dictionary defaultKeyword={"bird"} />
           <Button />
         </main>
         <footer>This page was coded by{' '}
