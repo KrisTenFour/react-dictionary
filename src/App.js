@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import Dictionary from "./Dictionary";
+import Button from "./Button";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <header><h1>English Dictionary</h1></header>
         <main>
           <Dictionary defaultKeyword={"soup"} />
+          <Button />
         </main>
         <footer>This page was coded by{' '}
           <a href='https://kristen-n.netlify.app/' rel="noreferrer" target="_blank">Kristen Namigai</a>🧝🏻 and is {" "}
