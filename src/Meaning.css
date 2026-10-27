@@ -23,10 +23,7 @@
         font-size: 16px;
     }
 
-    .Meaning .definition {
-        font-size: 14px;
-    }
-
+    .Meaning .definition,
     .Meaning .Example {
         font-size: 14px;
     }
