@@ -56,7 +56,7 @@ export default function Dictionary(props) {
                 <form onSubmit={handleSubmit}>
                     <div >
                         <input type="search" placeholder="Search..." defaultValue={props.defaultKeyword} onChange={handleKeywordChange} autoFocus={true} className="form-control" />
-                        <label className="form-text">e.g. dog, cat, cucumber...</label>
+                        <label className="form-text">e.g. dog, cat, soup...</label>
                     </div>
                 </form>
                 <Results results={results} />
