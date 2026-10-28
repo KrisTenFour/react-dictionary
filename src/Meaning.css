@@ -13,9 +13,8 @@
     font-size: 18px;
 }
 
-.Meaning .example {
-    margin-bottom: 2px;
-    font-weight: 500;
+.Meaning .Example {
+    margin-bottom: 5px;
 }
 
 @media (max-width: 553px) {
@@ -28,7 +27,8 @@
     }
 
     .Meaning .definition,
-    .Meaning .Example {
+    .Meaning .Example,
+    .Meaning .Synonym {
         font-size: 14px;
     }
 }
