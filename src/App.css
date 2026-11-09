@@ -5,10 +5,14 @@ footer {
 }
 
 .App {
+  background: rgb(1, 1, 67)
+}
+
+.App,
+.App header h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background: rgb(0, 0, 93)
 }
 
 .App .container {
@@ -22,10 +26,7 @@ footer {
 
 .App header h1 {
   margin: 20px auto;
-  font-size: 60px;
-  font-family: "Grenze Gotisch", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
+  font-size: 45px;
   letter-spacing: 6px;
 }
 
